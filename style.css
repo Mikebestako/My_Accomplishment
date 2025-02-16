@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+    border: 1px solid black;
+}
+
+.pending {
+    background-color: white;
+}        
+
+tr td:nth-child(2){
+    text-align: center;
+}
+
+tr td:nth-child(1){
+    padding-left: 20px;
+    background-color:antiquewhite;
+}
+
+tr td:nth-child(1):hover {
+    background-color: cadetblue;
+}
+
+table {
+    width: 70%;
+}
+
+.pending {
+    background-color: greenyellow;
+}
+
+td {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+th {
+    background-color:darkorange;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
